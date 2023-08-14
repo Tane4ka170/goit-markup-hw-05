@@ -523,6 +523,69 @@ line-height: 1.11;
   .footer-socials-link:focus {
     background-color: #31d0aa;
   }
+
+.footer-subscribe {
+    margin-left: 80px;
+}
+.footer-subsribe-text {
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    padding-bottom: 16px;
+}
+.form-footer {
+    display: flex;
+    gap: 24px;
+    margin-right: auto;
+}
+.footer-label {
+}
+.footer-input {
+    color: var(--white, #FFF);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 264px;
+    height: 40px;
+}
+.footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: var(--logo-color);
+    min-width: 165px;
+    height: 40px;
+    color:white;
+    font-size: 16px;
+    line-height:1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+    color: var(--pressed-state-color);
+}
+.footer-subscribe-icon {
+    fill: white;
+    margin-left: 16px;
+}
 /* portfolio */
 body.portfolio {
     color: #434455;
